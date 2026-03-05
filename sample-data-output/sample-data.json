@@ -1,0 +1,152 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "$2b$10$auo83gilgt5",
+      "email": "user1@example.com",
+      "last_login": "2026-02-25T19:15:45.166Z"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "$2b$10$nezkjnr3udi",
+      "email": "user2@example.com",
+      "last_login": "2026-02-08T19:15:45.169Z"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "password": "$2b$10$vt2dot3cqs",
+      "email": "user3@example.com",
+      "last_login": "2026-02-22T19:15:45.169Z"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "password": "$2b$10$kfpzn62ivt8",
+      "email": "user4@example.com",
+      "last_login": "2026-02-15T19:15:45.169Z"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "password": "$2b$10$kctb3g1wt7k",
+      "email": "user5@example.com",
+      "last_login": "2026-02-26T19:15:45.169Z"
+    }
+  ],
+  "blog_posts": [
+    {
+      "id": 1,
+      "user_id": 536,
+      "title": "Blog Post 1",
+      "content": "This is the content of blog post 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cover": "https://picsum.photos/800/600?random=1"
+    },
+    {
+      "id": 2,
+      "user_id": 125,
+      "title": "Blog Post 2",
+      "content": "This is the content of blog post 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cover": "https://picsum.photos/800/600?random=2"
+    },
+    {
+      "id": 3,
+      "user_id": 129,
+      "title": "Blog Post 3",
+      "content": "This is the content of blog post 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cover": "https://picsum.photos/800/600?random=3"
+    },
+    {
+      "id": 4,
+      "user_id": 299,
+      "title": "Blog Post 4",
+      "content": "This is the content of blog post 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cover": "https://picsum.photos/800/600?random=4"
+    },
+    {
+      "id": 5,
+      "user_id": 735,
+      "title": "Blog Post 5",
+      "content": "This is the content of blog post 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "cover": "https://picsum.photos/800/600?random=5"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "blog_id": 21,
+      "user_id": 825,
+      "content": "This is the content of blog post 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 2,
+      "blog_id": 831,
+      "user_id": 667,
+      "content": "This is the content of blog post 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 3,
+      "blog_id": 696,
+      "user_id": 359,
+      "content": "This is the content of blog post 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 4,
+      "blog_id": 368,
+      "user_id": 196,
+      "content": "This is the content of blog post 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 5,
+      "blog_id": 878,
+      "user_id": 947,
+      "content": "This is the content of blog post 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "react"
+    },
+    {
+      "id": 2,
+      "name": "node"
+    },
+    {
+      "id": 3,
+      "name": "database"
+    },
+    {
+      "id": 4,
+      "name": "css"
+    },
+    {
+      "id": 5,
+      "name": "html"
+    }
+  ],
+  "blog_tag": [
+    {
+      "blog_id": 1,
+      "tag_id": 1
+    },
+    {
+      "blog_id": 2,
+      "tag_id": 2
+    },
+    {
+      "blog_id": 3,
+      "tag_id": 3
+    },
+    {
+      "blog_id": 4,
+      "tag_id": 4
+    },
+    {
+      "blog_id": 5,
+      "tag_id": 5
+    }
+  ]
+}
