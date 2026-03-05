@@ -1,0 +1,40 @@
+
+--- users ---
+id,username,password,email,last_login
+"1","user1","$2b$10$auo83gilgt5","user1@example.com","2026-02-25T19:15:45.166Z"
+"2","user2","$2b$10$nezkjnr3udi","user2@example.com","2026-02-08T19:15:45.169Z"
+"3","user3","$2b$10$vt2dot3cqs","user3@example.com","2026-02-22T19:15:45.169Z"
+"4","user4","$2b$10$kfpzn62ivt8","user4@example.com","2026-02-15T19:15:45.169Z"
+"5","user5","$2b$10$kctb3g1wt7k","user5@example.com","2026-02-26T19:15:45.169Z"
+
+--- blog_posts ---
+id,user_id,title,content,cover
+"1","536","Blog Post 1","This is the content of blog post 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.","https://picsum.photos/800/600?random=1"
+"2","125","Blog Post 2","This is the content of blog post 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.","https://picsum.photos/800/600?random=2"
+"3","129","Blog Post 3","This is the content of blog post 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.","https://picsum.photos/800/600?random=3"
+"4","299","Blog Post 4","This is the content of blog post 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.","https://picsum.photos/800/600?random=4"
+"5","735","Blog Post 5","This is the content of blog post 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.","https://picsum.photos/800/600?random=5"
+
+--- comments ---
+id,blog_id,user_id,content
+"1","21","825","This is the content of blog post 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+"2","831","667","This is the content of blog post 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+"3","696","359","This is the content of blog post 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+"4","368","196","This is the content of blog post 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+"5","878","947","This is the content of blog post 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+--- tags ---
+id,name
+"1","react"
+"2","node"
+"3","database"
+"4","css"
+"5","html"
+
+--- blog_tag ---
+blog_id,tag_id
+"1","1"
+"2","2"
+"3","3"
+"4","4"
+"5","5"
